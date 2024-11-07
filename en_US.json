@@ -46,7 +46,7 @@
         "sign_in_button": "@:common.sign_in",
         "sign_up_button": "@:common.sign_up",
         "social_sign_in": "Or sign in with",
-        "no_account": "Don't have an account?",
+        "no_account": "Don't have an account? {sign_up}",
         "footer": "By signing in, you agree to our {terms_condition} and {privacy_policy}"
     },
     "registration": {
@@ -83,7 +83,7 @@
     "otp": {
         "title": "Verify Your Account",
         "description": "Please enter the 4-digit code we've sent to {email}",
-        "resend_code": "Didn't receive the code?",
+        "resend_code": "Didn't receive the code? {resend}",
         "resend_button": "Send code again",
         "submit_button": "@:common.submit",
         "wrong_code": "Incorrect code! Try again",
