@@ -1,19 +1,19 @@
 {
     "version": "0.0.1",
     "common": {
-        "search": "Search",
-        "skip": "Skip",
-        "next": "Next",
-        "get_started": "Get Started",
-        "sign_in": "Sign In",
-        "sign_up": "Sign Up",
-        "terms_conditions": "Terms & Conditions",
-        "privacy_policy": "Privacy Policy",
-        "submit": "Submit"
+        "search": "Cari",
+        "skip": "Lewati",
+        "next": "Lanjut",
+        "get_started": "Mulai",
+        "sign_in": "Masuk",
+        "sign_up": "Daftar",
+        "terms_conditions": "Syarat & Ketentuan",
+        "privacy_policy": "Kebijakan Privasi",
+        "submit": "Kirim"
     },
     "welcome": {
-        "title": "Spend your money smarter",
-        "description": "Avoid overspending with our smart budgeting features",
+        "title": "Habiskan uangmu dengan lebih bijak",
+        "description": "Hindari pengeluaran berlebihan dengan fitur anggaran pintar kami",
         "skip_button": "@:common.skip",
         "next_button": "@:common.next",
         "get_started_button": "@:common.get_started"
@@ -22,12 +22,12 @@
         "next_button": "@:common.next",
         "search_hint": "@:common.search",
         "language": {
-            "title": "Select Language",
-            "description": "Choose your preferred language"
+            "title": "Pilih Bahasa",
+            "description": "Pilih bahasa yang Anda inginkan"
         },
         "currency": {
-            "title": "Select Currency",
-            "description": "Choose your preferred currency"
+            "title": "Pilih Mata Uang",
+            "description": "Pilih mata uang yang Anda inginkan"
         }
     },
     "login": {
@@ -36,57 +36,57 @@
             "placeholder": "user@example.com"
         },
         "password": {
-            "label": "Password",
-            "placeholder": "Input your password"
+            "label": "Kata Sandi",
+            "placeholder": "Masukkan kata sandi Anda"
         },
-        "title": "Welcome Back",
-        "description": "Sign in to your account",
-        "remember_me": "Remember me",
-        "forgot_password": "Forgot password?",
+        "title": "Selamat Datang Kembali",
+        "description": "Masuk ke akun Anda",
+        "remember_me": "Ingat saya",
+        "forgot_password": "Lupa kata sandi?",
         "sign_in_button": "@:common.sign_in",
         "sign_up_button": "@:common.sign_up",
-        "social_sign_in": "Or sign in with",
-        "no_account": "Don't have an account?",
-        "footer": "By signing in, you agree to our {terms_condition} and {privacy_policy}"
+        "social_sign_in": "Atau masuk dengan",
+        "no_account": "Belum punya akun?",
+        "footer": "Dengan masuk, Anda menyetujui {terms_condition} dan {privacy_policy}"
     },
     "registration": {
         "name": {
-            "label": "Name",
-            "placeholder": "Input your name"
+            "label": "Nama",
+            "placeholder": "Masukkan nama Anda"
         },
         "email": {
             "label": "Email",
             "placeholder": "user@example.com"
         },
         "phone": {
-            "label": "Phone Number",
+            "label": "Nomor Telepon",
             "placeholder": "000 0000 0000"
         },
         "referral_code": {
-            "label": "Referral Code (Optional)",
-            "placeholder": "Input referral code"
+            "label": "Kode Referral (Opsional)",
+            "placeholder": "Masukkan kode referral"
         },
         "password": {
-            "label": "Password",
-            "placeholder": "Input your password"
+            "label": "Kata Sandi",
+            "placeholder": "Masukkan kata sandi Anda"
         },
         "confirm_password": {
-            "label": "Re-enter Password",
-            "placeholder": "Re-enter your password"
+            "label": "Masukkan Ulang Kata Sandi",
+            "placeholder": "Masukkan ulang kata sandi Anda"
         },
-        "title": "Hello",
-        "description": "Sign up for a new account",
+        "title": "Halo",
+        "description": "Daftar akun baru",
         "sign_up_button": "@:common.sign_up",
-        "social_sign_up": "Or sign up with",
-        "footer": "By signing up, you agree to our {terms_condition} and {privacy_policy}"
+        "social_sign_up": "Atau daftar dengan",
+        "footer": "Dengan mendaftar, Anda menyetujui {terms_condition} dan {privacy_policy}"
     },
     "otp": {
-        "title": "Verify Your Account",
-        "description": "Please enter the 4-digit code we've sent to {email}",
-        "resend_code": "Didn't receive the code?",
-        "resend_button": "Send code again",
+        "title": "Verifikasi Akun Anda",
+        "description": "Silakan masukkan kode 4-digit yang telah kami kirim ke {email}",
+        "resend_code": "Tidak menerima kode?",
+        "resend_button": "Kirim ulang kode",
         "submit_button": "@:common.submit",
-        "wrong_code": "Incorrect code! Try again",
-        "resend_countdown": "Re-send code in {countdown}"
+        "wrong_code": "Kode salah! Coba lagi",
+        "resend_countdown": "Kirim ulang kode dalam {countdown}"
     }
 }
