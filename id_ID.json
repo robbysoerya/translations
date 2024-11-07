@@ -1,4 +1,4 @@
-{   
+{
     "version": "0.0.1",
     "common": {
         "search": "Search",
@@ -13,11 +13,14 @@
     },
     "welcome": {
         "title": "Spend your money smarter",
-        "description": "Avoid overspending with our smart budgeting features"
+        "description": "Avoid overspending with our smart budgeting features",
+        "skip_button": "@:common.skip",
+        "next_button": "@:common.next",
+        "get_started_button": "@:common.get_started"
     },
     "onboarding": {
         "next_button": "@:common.next",
-        "search_button": "@:common.search",
+        "search_hint": "@:common.search",
         "language": {
             "title": "Select Language",
             "description": "Choose your preferred language"
@@ -44,7 +47,7 @@
         "sign_up_button": "@:common.sign_up",
         "social_sign_in": "Or sign in with",
         "no_account": "Don't have an account?",
-        "footer": "By signing in, you agree to our @:common.terms_conditions and @:common.privacy_policy"
+        "footer": "By signing in, you agree to our {terms_condition} and {privacy_policy}"
     },
     "registration": {
         "name": {
@@ -75,7 +78,7 @@
         "description": "Sign up for a new account",
         "sign_up_button": "@:common.sign_up",
         "social_sign_up": "Or sign up with",
-        "footer": "By signing up, you agree to our @:common.terms_conditions and @:common.privacy_policy"
+        "footer": "By signing up, you agree to our {terms_condition} and {privacy_policy}"
     },
     "otp": {
         "title": "Verify Your Account",
@@ -83,6 +86,7 @@
         "resend_code": "Didn't receive the code?",
         "resend_button": "Send code again",
         "submit_button": "@:common.submit",
-        "wrong_code": "Incorrect code! Try again"
+        "wrong_code": "Incorrect code! Try again",
+        "resend_countdown": "Re-send code in {countdown}"
     }
 }
