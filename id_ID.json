@@ -1,3 +1,88 @@
-{
-    "welcome_header": "Halo Dunia!"
+{   
+    "version": "0.0.1",
+    "common": {
+        "search": "Search",
+        "skip": "Skip",
+        "next": "Next",
+        "get_started": "Get Started",
+        "sign_in": "Sign In",
+        "sign_up": "Sign Up",
+        "terms_conditions": "Terms & Conditions",
+        "privacy_policy": "Privacy Policy",
+        "submit": "Submit"
+    },
+    "welcome": {
+        "title": "Spend your money smarter",
+        "description": "Avoid overspending with our smart budgeting features"
+    },
+    "onboarding": {
+        "next_button": "@:common.next",
+        "search_button": "@:common.search",
+        "language": {
+            "title": "Select Language",
+            "description": "Choose your preferred language"
+        },
+        "currency": {
+            "title": "Select Currency",
+            "description": "Choose your preferred currency"
+        }
+    },
+    "login": {
+        "email": {
+            "label": "Email",
+            "placeholder": "user@example.com"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Input your password"
+        },
+        "title": "Welcome Back",
+        "description": "Sign in to your account",
+        "remember_me": "Remember me",
+        "forgot_password": "Forgot password?",
+        "sign_in_button": "@:common.sign_in",
+        "sign_up_button": "@:common.sign_up",
+        "social_sign_in": "Or sign in with",
+        "no_account": "Don't have an account?",
+        "footer": "By signing in, you agree to our @:common.terms_conditions and @:common.privacy_policy"
+    },
+    "registration": {
+        "name": {
+            "label": "Name",
+            "placeholder": "Input your name"
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "user@example.com"
+        },
+        "phone": {
+            "label": "Phone Number",
+            "placeholder": "000 0000 0000"
+        },
+        "referral_code": {
+            "label": "Referral Code (Optional)",
+            "placeholder": "Input referral code"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Input your password"
+        },
+        "confirm_password": {
+            "label": "Re-enter Password",
+            "placeholder": "Re-enter your password"
+        },
+        "title": "Hello",
+        "description": "Sign up for a new account",
+        "sign_up_button": "@:common.sign_up",
+        "social_sign_up": "Or sign up with",
+        "footer": "By signing up, you agree to our @:common.terms_conditions and @:common.privacy_policy"
+    },
+    "otp": {
+        "title": "Verify Your Account",
+        "description": "Please enter the 4-digit code we've sent to {email}",
+        "resend_code": "Didn't receive the code?",
+        "resend_button": "Send code again",
+        "submit_button": "@:common.submit",
+        "wrong_code": "Incorrect code! Try again"
+    }
 }
