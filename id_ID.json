@@ -83,7 +83,7 @@
     "otp": {
         "title": "Verifikasi Akun Anda",
         "description": "Silakan masukkan kode 4-digit yang telah kami kirim ke {email}",
-        "resend_code": "Tidak menerima kode?",
+        "resend_code": "Tidak menerima kode? {resend}",
         "resend_button": "Kirim ulang kode",
         "submit_button": "@:common.submit",
         "wrong_code": "Kode salah! Coba lagi",
